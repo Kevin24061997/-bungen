@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Login</h1>
+        <form action="#">
+            <input id="email" type="text" placeholder="E-mail">
+            <input id="password" type="password" placeholder="Password">
+            <div class="recover">
+                <a href="#">Forgot Password?</a>
+            </div>
+        </form>
+        <button type="submit" onclick="vergleichUser()">Login</button>
+        <button onclick="document.getElementById('id01').style.display='block'" 
+            class="delete-button dark-theme">Delete Account ?</button>
+        <div class="member">No User yet? <a href="./signup.html">Register now</a></div>
+    </div>
+
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <h1>Delete Account</h1>
+                <p>Are you sure you want to delete your account?</p>
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" 
+                        class="deletebtn">Delete</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <script src="frontend.ts"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Sign Up </h1>
+        <form action="#">
+            <input id="firstname" type="text" placeholder="First Name">
+            <input id="lastname" type="text" placeholder="Last Name">
+            <input id="username" type="text" placeholder="Username">
+            <input id="email" type="text" placeholder="Email">
+            <input id="password" type="password" placeholder="Password">
+        </form>
+        <div class="terms">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">I agree to the <a href="#"> Terms & Conditions</a></label>
+        </div>
+        <button type="submit" onclick="saveUsers()" value="signup">Sign Up</button>
+        <div class="member">Already a User? <a href="./login.html">Login</a></div>
+    </div>
+    <script src="frontend.ts"></script>
+</body>
+
+</html>
+

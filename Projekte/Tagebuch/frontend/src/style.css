@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #8a8e92;
+    background-image: url("https://www.ritterladen.de/out/pictures/generated/product/3/948_1264_80/innenseitemitte.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;
+}
+
+form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #b9b8b8;
+}
+
+button {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    background: rgb(17, 107, 143);
+}
+
+button:hover {
+    background: rgba(17, 107, 143, 0.877);
+}
+
+input:focus {
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.terms {
+    margin-top: 0.2rem;
+}
+
+.terms input {
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.terms label {
+    font-size: 0.7rem;
+}
+
+.terms a {
+    color: rgb(17.107.143);
+}
+
+.member {
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #636363;
+}
+
+.member a {
+    color: rgb(17.107.143);
+    text-decoration: none;
+}
+
+.recover{
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+
+.recover q{
+    text-decoration: none;
+    color: #464647;
+}
+
+
+/* Styles for the delete button */
+.delete-button {
+    background-color: #555;
+    /* Set the background color to dark grey */
+    color: white;
+    /* Set the text color to white */
+    border: none;
+    /* Remove the border */
+    padding: 10px 20px;
+    /* Add padding to the button */
+    text-align: center;
+    /* Center the text */
+    text-decoration: none;
+    /* Remove any text decoration */
+    display: inline-block;
+    /* Make the button an inline element */
+    font-size: 16px;
+    /* Set the font size */
+    border-radius: 4px;
+    /* Add a rounded border */
+}
+
+/* Styles for the dark theme */
+.dark-theme {
+    background-color: #333;
+    /* Set the background color to black */
+    color: #ddd;
+    /* Set the text color to light grey */
+}
+
+/* Styles for the delete page */
+.delete-page {
+    text-align: center;
+    /* Center align the text */
+    color: #000000;
+    /* Set the text color to black */
+    font-size: 38px;
+    /* Set the font size */
+    margin-bottom: 20px;
+    /* Add a margin to the bottom */
+}
+
+/* Styles for the p element in the delete-account.html = Your Account has been successfully deleted  */
+.delete-page p {
+    font-size: 34px;
+    /* Set the font size for the paragraph element */
+    margin-bottom: 20px;
+    /* Add a margin to the bottom of the paragraph element */
+}
+
+/* Styles for the body element */
+body {
+    background-repeat: no-repeat;
+    /* Set the background image to not repeat */
+    background-size: cover;
+    /* Make the background image cover the entire screen */
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+     width: 100%;
+  }
+}
