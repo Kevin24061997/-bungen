@@ -1,0 +1,21 @@
+{
+  "name": "glitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start-fe": "parcel",
+    "start-be": "supervisor app_express.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.2.0",
+    "@hapi/vision": "^7.0.0",
+    "cors": "^2.8.5",
+    "handlebars": "^4.7.7",
+    "parcel": "^2.8.3",
+    "pg": "^8.9.0"
+  }
+}
